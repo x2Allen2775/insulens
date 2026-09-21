@@ -1,0 +1,51 @@
+# ==========================================
+# InsuLens - Explainable AI for DR Screening
+# ==========================================
+
+# --- Exclude presentation & analysis files ---
+*.pptx
+*.docx
+*.mov
+7B374C22-8C03-41C3-9C54-993B0AD30B9F_1_102_o.jpeg
+
+# --- Exclude non-code analysis reports & notes ---
+presentation_guide.txt
+project_analysis_report.txt
+project_analysis_reportevenmoredetailed.txt
+project_analysis_reportmoredetailed.txt
+qa_prep.text
+severity_parameters.txt
+
+# --- Exclude project planning markdown files (keep README.md) ---
+implementation_plan.md
+ai_ml_integration_strategy.md
+competitive_analysis_report.md
+cost_implementation_analysis.md
+hardware_and_offline_strategy.md
+indian_demographic_pitch.md
+rural_implementation_playbook.md
+
+# --- Exclude large full dataset downloads (Kaggle APTOS full archive) ---
+DR_Project/datasets/APTOS_Train/
+DR_Project/datasets/APTOS_Train_Preprocessed/
+dataset aptos/
+*.zip
+*.tar
+*.tar.gz
+
+# --- macOS files ---
+.DS_Store
+*.DS_Store
+._*
+
+# --- MATLAB temp files ---
+*.asv
+*.m~
+temp_enhanced.jpg
+
+# --- Processed output images ---
+DR_Project/processed_images/
+DR_Project/results/
+
+# --- Gemini/IDE config ---
+.gemini/
